@@ -1,0 +1,46 @@
+.faq-section{
+    width: 100%;
+    min-height: 100vh;
+}
+.faq-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.faq-heading{
+    width: 573px;
+    height: 226px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.faq-heading-h1{
+    color: #000;
+    text-align: center;
+    font-family: Griffiths;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.faq-heading-span{
+    color: #B83133;
+    font-family: Griffiths;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.faq-subheading-p{
+    color: #808080;
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.48px;
+}

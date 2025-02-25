@@ -1,0 +1,27 @@
+.circle-animation{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 50;
+    top: 5%;
+
+}
+.two-dots{
+    position: absolute;
+    display: flex;
+    gap: 0.5rem;
+}
+.nav-items{
+    cursor: pointer;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 700;
+    display: inline-block;
+}
+.nav-letters{
+    display: inline-block;
+    margin-left: 0.25rem ;
+    margin-right: 0.25rem ;
+
+}

@@ -1,0 +1,35 @@
+.cards{
+    height: 18.75rem;
+    width: 18.75rem; 
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.9375rem;
+    justify-content: center;
+    align-items: center; 
+    overflow-x: hidden;
+    background-color: rgb(114, 114, 225);
+}
+.card-name{
+    color: #000;
+    font-family: Griffy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 12px;
+}
+.card-review{
+    color: rgba(0, 0, 0, 0.70);
+    text-align: center;
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.16px;
+}
+.card-content{
+    margin-top: 12px;
+    width: 232.829px;
+    transform: rotate(0.099deg);
+}
