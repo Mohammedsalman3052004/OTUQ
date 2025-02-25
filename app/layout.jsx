@@ -1,4 +1,4 @@
-import { DM_Sans, Griffy, Grechen_Fuemen, Dancing_Script } from "next/font/google";
+import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar.jsx";
 
@@ -8,23 +8,12 @@ const dmSans = DM_Sans({
   subsets: ["latin"],
 });
 
-const griffy = Griffy({
+const griffy = {
   variable: "--font-griffy",
-  subsets: ["latin"],
-  weight: "400",
-});
+};
 
-const grechenFuemen = Grechen_Fuemen({
-  variable: "--font-grechen-fuemen",
-  subsets: ["latin"],
-  weight: "400", // Grechen Fuemen has only one weight (400)
-});
 
-const dancingScript = Dancing_Script({
-  variable: "--font-dancing-script",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"], // Dancing Script has multiple weights
-});
+
 
 export const metadata = {
   title: "Create Next App",
@@ -35,7 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${dmSans.variable} ${griffy.variable} ${grechenFuemen.variable} ${dancingScript.variable} antialiased`}
+        className={`${dmSans.variable} ${griffy.variable} antialiased`}
       >
         <Navbar />
         {children}

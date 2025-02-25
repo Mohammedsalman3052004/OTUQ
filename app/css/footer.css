@@ -1,0 +1,17 @@
+.footer-section{
+    height: 70vh;
+    width: 100%;
+    background-color: var(--primary-color);
+    position: relative;
+}
+
+.bg-text{
+    width: 100%;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    font-size: 150px;
+    color: #ffffff2a;
+    bottom: 0;
+}

@@ -10,7 +10,6 @@
 }
 .faq-heading{
     width: 573px;
-    height: 226px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,16 +17,13 @@
     gap: 20px;
 }
 .faq-heading-h1{
-    color: #000;
-    text-align: center;
-    font-family: Griffiths;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .faq-heading-span{
-    color: #B83133;
+    color: var(--primary-color);
     font-family: Griffiths;
     font-size: 60px;
     font-style: normal;
@@ -43,4 +39,7 @@
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.48px;
+}
+.faq-qa{
+    margin-top: 60px;
 }

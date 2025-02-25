@@ -8,10 +8,26 @@
     align-items: center; 
     overflow-x: hidden;
     background-color: rgb(114, 114, 225);
+    position: relative;
+    z-index: 2;
+}
+.card-name-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.card-name-dot{
+    height: 5px;
+    width: 5px;
+    left: 0;
+    bottom: 0;
+    border-radius: 50%;
+    background-color: black;
 }
 .card-name{
-    color: #000;
-    font-family: Griffy;
+    color: var(--text-color-primary);
+    font-family: var(--font-griffy);
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
@@ -19,12 +35,12 @@
     margin-top: 12px;
 }
 .card-review{
-    color: rgba(0, 0, 0, 0.70);
+    color: var(--text-color-primary);
     text-align: center;
     font-family: "DM Sans";
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: normal;
     letter-spacing: 0.16px;
 }

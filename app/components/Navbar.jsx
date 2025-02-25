@@ -30,7 +30,7 @@ export default function Navbar() {
       tl.current.from(
         ".float h4",
         {
-          x: -25,
+          width: "50%",
           duration: 0.5,
           stagger: 0.09,
           opacity: 0,
